@@ -12,14 +12,14 @@ function cleanHost(value) {
 const cfg = {
   token: process.env.DISCORD_TOKEN?.trim(),
   port: Number(process.env.PORT || 8080),
-  defaultPrefix: (process.env.DEFAULT_PREFIX || '!').trim() || '!',
+  defaultPrefix: (process.env.DEFAULT_PREFIX || '3').trim() || '3',
   dataDir: process.env.DATA_DIR || '/data',
   lavalinkHost: cleanHost(process.env.LAVALINK_HOST),
   lavalinkPort: Number(process.env.LAVALINK_PORT || 443),
   lavalinkSecure: String(process.env.LAVALINK_SECURE ?? 'true').toLowerCase() === 'true',
   lavalinkPassword: process.env.LAVALINK_PASSWORD?.trim(),
-  playingIcon: process.env.PLAYING_ICON || '🐱',
-  botStatus: process.env.BOT_STATUS || 'Music',
+  playingIcon: process.env.PLAYING_ICON || '🕷️',
+  botStatus: process.env.BOT_STATUS || 'Pate iu bes',
   debug: String(process.env.PLAYER_DEBUG || 'false').toLowerCase() === 'true',
   maxQueueDisplay: 20
 };
