@@ -31,7 +31,7 @@ export function resolveCommand(input) {
 
 export function helpText(prefix) {
   return [
-    '**🎵 Jockie Music**', '',
+    '**🎵 Pate Music**', '',
     `\`${prefix}play <tên/link>\` / \`${prefix}p\``,
     `\`${prefix}pause\` / \`${prefix}pa\``,
     `\`${prefix}resume\` / \`${prefix}r\``,
