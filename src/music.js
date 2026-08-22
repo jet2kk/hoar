@@ -105,7 +105,7 @@ export class MusicController {
         });
       } else {
         await player.queue.add(result.tracks[0]);
-        await sendSilent(message.channel, { content: `➕ Added **${clean(titleOf(result.tracks[0]))}** to queue.` });
+       
       }
 
       // Exactly one initial play call. autoSkip handles normal track transitions.
